@@ -1,3 +1,4 @@
+[![Django CI](https://github.com/Goldenhubuz/unit-converter/actions/workflows/django.yml/badge.svg?branch=main)](https://github.com/Goldenhubuz/unit-converter/actions/workflows/django.yml)
 
 # Unit Converter Project
 
@@ -42,37 +43,38 @@ This directory handles the frontend views, templates, and validation logic.
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/under-script/UnitConverter.git
+    git clone https://github.com/Goldenhubuz/unit-converter.git
     cd UnitConverter
     ```
 
-2. **Install dependencies**:
+2. Create a virtual environment and activate it:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+
+3. **Install dependencies**:
     ```bash
     pip install -r requirements.txt
     ```
 
-3. **Run migrations** (if necessary):
+4. **Run migrations** (if necessary):
     ```bash
     python manage.py migrate
     ```
 
-4. **Run the development server**:
+5. **Run the development server**:
     ```bash
     python manage.py runserver
     ```
 
-5. **Access the application**:
+6. **Access the application**:
     Open your browser and navigate to `http://127.0.0.1:8000`.
 
 ## Usage
 
 - Enter the values and select units to convert on the homepage.
 - The application provides immediate results without needing to save or store them in a database.
-
-## Diagram
-
-![Unit Converter Diagram](./UnitConverter.svg)
-![Unit Converter Diagram 2](./UnitConverter2.svg)
 
 ## Idea Source
 
@@ -84,11 +86,11 @@ Contributions are welcome! If you have any ideas or improvements for the game, f
 
 ### License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the GPL License. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
-For any questions or feedback, please contact [abdulmajidyunusov18@gmail.com].
+For any questions or feedback, please contact [goldendevuz@gmail.com].
 
 ---
 
