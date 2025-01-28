@@ -13,7 +13,7 @@ This is a Django-based web application for converting units of measurement. The 
 - **.gitignore**: Specifies files and directories to be ignored by Git.
 - **.idea/**, **.venv/**, **.git/**: IDE, virtual environment, and Git-related files and directories.
 
-### Django Backend - `UnitConverter/`
+### `config/`
 
 This directory contains the Django project's backend code.
 
@@ -23,7 +23,7 @@ This directory contains the Django project's backend code.
 - **urls.py**: URL configurations for the Django application.
 - **settings.py**: Configuration settings for the Django project.
 
-### Frontend Application - `frontend/`
+### `frontend/`
 
 This directory handles the frontend views, templates, and validation logic.
 
@@ -44,7 +44,7 @@ This directory handles the frontend views, templates, and validation logic.
 1. **Clone the repository**:
     ```bash
     git clone https://github.com/Goldenhubuz/unit-converter.git
-    cd UnitConverter
+    cd unit-converter
     ```
 
 2. Create a virtual environment and activate it:
