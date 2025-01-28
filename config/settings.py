@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     # custom apps
-    'frontend2.apps.FrontendConfig'
+    'frontend.apps.FrontendConfig'
 ]
 
 MIDDLEWARE = [
@@ -78,12 +78,8 @@ WSGI_APPLICATION = 'config.wsgi.application'
 
 DATABASES = {
     'default': {
-    'ENGINE': 'django.db.backends.mysql',
-    'NAME': 'mariadb',
-    'USER':'gold',
-    'PASSWORD':'1920',
-    'HOST':'localhost',
-    'PORT':'',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
 

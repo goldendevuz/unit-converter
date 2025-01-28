@@ -1,6 +1,6 @@
 from django.shortcuts import render
 
-from frontend.services import convert, convert_weight, convert_temperature
+from frontend.utils import convert_length, convert_weight, convert_temperature
 from frontend.validators import validate_input
 
 
@@ -16,7 +16,7 @@ def index(request):
         if error_message:
             result = error_message
         else:
-            result = convert(valid_value, unit_from, unit_to)
+            result = convert_length(valid_value, unit_from, unit_to)
 
     return render(request, 'index.html', {'result': result})
 
