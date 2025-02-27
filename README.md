@@ -49,23 +49,23 @@ This directory handles the app views, templates, and validation logic.
 
 2. Create a virtual environment and activate it:
    ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   python -m venv env
+   source env/bin/activate  # On Windows: env\Scripts\activate
    ```
 
 3. **Install dependencies**:
     ```bash
-    pip install -r requirements.txt
+    make i
     ```
 
 4. **Run migrations** (if necessary):
     ```bash
-    python manage.py migrate
+    make mig
     ```
 
 5. **Run the development server**:
     ```bash
-    python manage.py runserver
+    make run
     ```
 
 6. **Access the application**:

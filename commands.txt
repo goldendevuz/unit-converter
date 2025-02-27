@@ -1,0 +1,5 @@
+python -m venv env
+. env/bin/activate
+make i
+make mig
+make run
