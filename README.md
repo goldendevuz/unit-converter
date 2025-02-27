@@ -1,5 +1,4 @@
 [![Django CI](https://github.com/Goldenhubuz/unit-converter/actions/workflows/django.yml/badge.svg?branch=main)](https://github.com/Goldenhubuz/unit-converter/actions/workflows/django.yml)
-[![wakatime](https://wakatime.com/badge/user/49489c61-f548-4cec-982d-e443f9ca894f/project/0b7160a0-6f51-473b-b592-4a5be20faa0c.svg)](https://wakatime.com/badge/user/49489c61-f548-4cec-982d-e443f9ca894f/project/0b7160a0-6f51-473b-b592-4a5be20faa0c)
 
 # Unit Converter Project
 
