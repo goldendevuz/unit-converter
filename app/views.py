@@ -1,7 +1,7 @@
 from django.shortcuts import render
 
-from frontend.utils import convert_length, convert_weight, convert_temperature
-from frontend.validators import validate_input
+from app.utils import convert_length, convert_weight, convert_temperature
+from app.validators import validate_input
 
 
 def index(request):

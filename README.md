@@ -23,9 +23,9 @@ This directory contains the Django project's backend code.
 - **urls.py**: URL configurations for the Django application.
 - **settings.py**: Configuration settings for the Django project.
 
-### `frontend/`
+### `app/`
 
-This directory handles the frontend views, templates, and validation logic.
+This directory handles the app views, templates, and validation logic.
 
 - **templates/**: Contains HTML templates for rendering the website pages.
 - **__init__.py**: Marks the directory as a Python package.
@@ -35,7 +35,7 @@ This directory handles the frontend views, templates, and validation logic.
 - **tests.py**: Test cases for the application.
 - **apps.py**: Application configuration.
 - **migrations/**: Directory for database migrations (not needed for this project).
-- **urls.py**: URL routing specific to the frontend application.
+- **urls.py**: URL routing specific to the app application.
 - **validators.py**: Contains input validation logic.
 - **services.py**: (If applicable) Contains service-related functions and logic.
 
